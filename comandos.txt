@@ -1,0 +1,24 @@
+mkdir "Git e Github" && cd "Git e Github"
+
+git init
+
+git config user.name "Guilherme-07062002"
+git config user.email "guilherme762002@gmail.com"
+
+touch arquivo.txt
+
+git add arquivo.txt
+
+git commit -m "adiciona arquivo com nome e matricula"
+
+git remote add origin https://github.com/Guilherme-07062002/curso-git-embarcatech.git
+
+git push origin master
+
+touch comandos.txt
+
+git add comandos.txt
+
+git commit -m "adiciona arquivo com lista de comandos utilizados"
+
+git push origin master
